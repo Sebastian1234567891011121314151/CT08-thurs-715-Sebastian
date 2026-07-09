@@ -16,7 +16,7 @@ function setup(){
  
     let age=10
 
-    if (age<=9)
+    if (age<=9){}
 
 }
 
