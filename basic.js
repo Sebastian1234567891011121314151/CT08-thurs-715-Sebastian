@@ -10,7 +10,7 @@ function setup(){
 
     for (let i = 0;i<20;i+2){
         console.log(i)
-        yPos
+        yPos = 10+(i*10)
     }
     
 
