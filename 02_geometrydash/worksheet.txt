@@ -12,3 +12,5 @@ wasd m1 m2
 u cant beat the game
 
 
+cubes
+jumping 
