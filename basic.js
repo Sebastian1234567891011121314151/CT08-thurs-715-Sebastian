@@ -16,7 +16,11 @@ function setup(){
  
     let age=10
 
-    if (age<=9){}
+    if (age<=9){
+        console.log("Lower Pri")
+    } else if (age<=12){
+        
+    }
 
 }
 
