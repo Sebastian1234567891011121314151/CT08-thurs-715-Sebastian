@@ -11,7 +11,7 @@ function setup(){
     for (let i = 0;i<20;i+2){
         sum+=i
     }
-        
+    console.log(sum)
 
 }
 
