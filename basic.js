@@ -1,1 +1,3 @@
-function setup(){}
+function setup(){
+    new Canvas(800)
+}
