@@ -5,13 +5,13 @@ function setup(){
 
     let a =1
     let b =2
-    let sum2 = a+b
-    console.log("The sum of a and b is",sum2)
-    let sum=0
+    let sum = a+b
+    console.log("The sum of a and b is",sum)
+
     for (let i = 0;i<20;i+2){
-        sum+=i
+        
     }
-    console.log(i)
+    
 
 }
 
