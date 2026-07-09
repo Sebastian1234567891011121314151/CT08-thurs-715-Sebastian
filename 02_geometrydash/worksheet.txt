@@ -15,3 +15,4 @@ u cant beat the game
 cubes
 jumping 
 to survive until the end of the lvl
+percentage bar
