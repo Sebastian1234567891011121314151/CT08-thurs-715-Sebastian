@@ -9,8 +9,7 @@ function setup(){
     console.log("The sum of a and b is",sum2)
     let sum=0
     for (let i = 0;i<20;i+2){
-        
-        sum
+        sum+=i
     }
         
 
