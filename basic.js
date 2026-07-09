@@ -13,7 +13,8 @@ function setup(){
         yPos = 10+(i*10)
         text(i,100,yPos)
     }
-    
+ 
+    let age=10
 
 }
 
