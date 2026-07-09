@@ -9,7 +9,8 @@ function setup(){
     console.log("The sum of a and b is",sum)
 
     for (let i = 0;i<20;i+2){
-        
+        console.log(i)
+        yPos
     }
     
 
