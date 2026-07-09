@@ -3,3 +3,6 @@ function setup(){
     console.log("Hello!")
 }
 
+function draw(){
+    
+}
