@@ -23,4 +23,6 @@ Auto-run and jumping
 
 Obstacles, orbs and reset
 
-G
+Game start screen and level clear
+
+Visual and
