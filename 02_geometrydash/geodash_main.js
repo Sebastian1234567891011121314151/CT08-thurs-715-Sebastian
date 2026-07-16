@@ -41,7 +41,7 @@ function setup() {
   player.collider="none";
 
   ground=new Group();
-
+  
 }
 
 function draw() {
