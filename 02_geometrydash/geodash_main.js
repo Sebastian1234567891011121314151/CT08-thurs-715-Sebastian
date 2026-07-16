@@ -24,7 +24,7 @@ bg= loadImage("assets/geobg.png")
 }
 
 function setup() {
-  
+  new CanvasCaptureMediaStreamTrack()
 }
 
 function draw() {
