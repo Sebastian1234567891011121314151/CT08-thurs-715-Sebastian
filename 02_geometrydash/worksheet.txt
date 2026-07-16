@@ -30,7 +30,7 @@ touching a spike or colliding with a wall
   b-player jumps on click/spacebar
 
 4.Obstacles, orbs and reset
-  a-addind
+  a-addingmore walls,spikes and orbs to the map
 5.Game start screen and level clear
 
 6.Visual and sound effects
