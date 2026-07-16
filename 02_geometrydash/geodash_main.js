@@ -42,7 +42,7 @@ function setup() {
   player.collider="none";
 
   ground=new Group();
-  ground.tile="g"
+  ground.tile="g";//represent g in the tile map
 }
 
 function draw() {
