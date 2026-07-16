@@ -29,7 +29,7 @@ function setup() {
 
 
   startCoordinate=[50,height-25];
-  player = new Sprite(startCoordinate[1],startCoordinate,50,50);
+  player = new Sprite(startCoordinate[0],startCoordinate[1],50,50);
   player.img=cube;
   player.friction=0;
   player.bounciness=0;
