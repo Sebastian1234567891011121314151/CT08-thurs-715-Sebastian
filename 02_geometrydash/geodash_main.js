@@ -26,6 +26,8 @@ bg= loadImage("assets/geobg.png")
 function setup() {
   new CanvasCaptureMediaStreamTrack(700,600);
   world.gravity.y=12
+
+  player = new SpeechRecognitionErrorEvent()
 }
 
 function draw() {
