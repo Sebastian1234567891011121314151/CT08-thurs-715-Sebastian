@@ -5,7 +5,7 @@ let bg;//background
 
 // game variables
 let tileMap1;//Tilemap for level design
-let spike;//
+let spike;//img for spike
 // world building groups
 
 
