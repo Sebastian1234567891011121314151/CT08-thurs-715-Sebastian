@@ -25,4 +25,4 @@ Obstacles, orbs and reset
 
 Game start screen and level clear
 
-Visual and
+Visual and sound effects  
