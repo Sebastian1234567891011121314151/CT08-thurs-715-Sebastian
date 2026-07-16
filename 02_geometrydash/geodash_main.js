@@ -24,6 +24,7 @@ let finishLine;
 function preload() {
 cube = loadImage("assets/cube.png")
 bg= loadImage("assets/geobg.png")
+tileMap1=loadStrings9
 }
 
 function setup() {
