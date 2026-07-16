@@ -37,8 +37,8 @@ function setup() {
 }
 
 function draw() {
-  clearInterval();//erase the previous frame
-  
+  clear();//erase the previous frame
+    Image()
 }
 
 
