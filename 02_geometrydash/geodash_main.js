@@ -7,7 +7,7 @@ let bg;//background
 let tileMap1;//Tilemap for level design
 let spike;//img for spike
 // world building groups
-
+l
 
 // image sprites
 
