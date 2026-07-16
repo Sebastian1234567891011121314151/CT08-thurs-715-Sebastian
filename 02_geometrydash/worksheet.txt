@@ -27,6 +27,7 @@ Build level and tilemaps
 
 Auto-run and jumping
 
+
 Obstacles, orbs and reset
 
 Game start screen and level clear
