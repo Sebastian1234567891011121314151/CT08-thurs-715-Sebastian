@@ -21,3 +21,6 @@ Build level and tilemaps
 
 Auto-run and jumping
 
+Obstacles, orbs and reset
+
+G
