@@ -1,6 +1,6 @@
 //player box
 let box;//PLayer sprite
-let cube;
+let cube;//Image for player sprite
 let bg;
 
 // game variables
