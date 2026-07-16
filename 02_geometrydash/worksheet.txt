@@ -40,4 +40,4 @@ touching a spike or colliding with a wall
 6.Visual and sound effects
   a-background music
   b-Death sound effect
-  c-s
+  c-Movement Particle effectsd
