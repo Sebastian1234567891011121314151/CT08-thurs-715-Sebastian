@@ -25,7 +25,7 @@ bg= loadImage("assets/geobg.png")
 
 function setup() {
   new CanvasCaptureMediaStreamTrack(700,600);
-  world
+  world.gravity.y=12
 }
 
 function draw() {
