@@ -28,7 +28,7 @@ function setup() {
   world.gravity.y=12
 
 
-  start
+  startCoordinate=[];
   player = new Sprite(50,height,50,50);
   player.img=cube;
   player.friction=0;
