@@ -40,7 +40,8 @@ function setup() {
   player.bounciness=0;
   player.collider="none";
 
-  ground=newGroup
+  ground=new Group();
+
 }
 
 function draw() {
