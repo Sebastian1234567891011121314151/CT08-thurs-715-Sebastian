@@ -1,5 +1,5 @@
 //player box
-let box;
+let box;//PLayer sprite
 let cube;
 let bg;
 
