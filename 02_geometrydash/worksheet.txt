@@ -42,3 +42,4 @@ touching a spike or colliding with a wall
   b-Death sound effect
   c-Movement Particle effects
   d-Death particle effects
+  e-Spawn particle effect
