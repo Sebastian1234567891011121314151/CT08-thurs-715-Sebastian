@@ -33,6 +33,7 @@ function setup() {
   player.img=cube;
   player.friction=0;
   player.bounciness=0;
+  player.collider="none"
 }
 
 function draw() {
