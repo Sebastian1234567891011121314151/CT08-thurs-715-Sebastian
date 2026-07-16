@@ -25,6 +25,7 @@ bg= loadImage("assets/geobg.png")
 
 function setup() {
   new CanvasCaptureMediaStreamTrack(700,600);
+  AudioWorkletNode.gravity.y=32
 }
 
 function draw() {
