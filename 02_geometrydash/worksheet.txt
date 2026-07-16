@@ -19,11 +19,11 @@ touching a spike or colliding with a wall
 
 
 
-Game setup, load assets, create players
+1.Game setup, load assets, create players
 a-Create Canvas 
 b-create player variable and load image
 
-Build level and tilemaps
+2.Build level and tilemaps
 
 Auto-run and jumping
 
