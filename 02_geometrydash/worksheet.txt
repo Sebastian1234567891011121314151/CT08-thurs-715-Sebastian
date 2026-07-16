@@ -34,5 +34,5 @@ touching a spike or colliding with a wall
   b-when player collides with wall or spike, restart game
 
 5.Game start screen and level clear
-
+  a-start and end screen
 6.Visual and sound effects
