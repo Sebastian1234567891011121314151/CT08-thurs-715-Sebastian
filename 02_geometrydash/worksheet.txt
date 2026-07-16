@@ -35,5 +35,6 @@ touching a spike or colliding with a wall
 
 5.Game start screen and level clear
   a-start and end menu
-  b-add finish line
+  b-add a finish line
+
 6.Visual and sound effects
