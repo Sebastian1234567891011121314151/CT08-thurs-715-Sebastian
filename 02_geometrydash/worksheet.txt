@@ -16,3 +16,7 @@ What causes the game to end?
 touching a spike or colliding with a wall
 
 Game setup, load assets, create players
+
+Build level and tilemaps
+
+Auto
