@@ -34,7 +34,7 @@ function setup() {
   world.gravity.y=12;
 
 
-  startCoordinate=[TILE_SIZE,height-25];
+  startCoordinate=[TILE_SIZE,height-TILE_SIZE/2];
   player = new Sprite(startCoordinate[0],startCoordinate[1],50,50);
   player.img=cube;
   player.friction=0;
@@ -43,6 +43,7 @@ function setup() {
 
   ground=new Group();
   ground.tile="g";//represent g in the tile map
+  ground.w=TIL
 }
 
 function draw() {
