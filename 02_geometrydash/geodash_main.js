@@ -9,7 +9,7 @@ let spike;//img for spike
 // world building groups
 let ground;
 let spikes;
-let orb
+let orb;
 let finishLine;
 
 // image sprites
@@ -30,7 +30,7 @@ spike=loadImage("assets/spike.png");
 
 function setup() {
   new CanvasCaptureMediaStreamTrack(700,600);
-  world.gravity.y=12
+  world.gravity.y=12;
 
 
   startCoordinate=[50,height-25];
@@ -38,7 +38,7 @@ function setup() {
   player.img=cube;
   player.friction=0;
   player.bounciness=0;
-  player.collider="none"
+  player.collider="none";
 }
 
 function draw() {
