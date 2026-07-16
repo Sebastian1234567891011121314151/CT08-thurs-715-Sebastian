@@ -9,5 +9,6 @@ jumping
 What is the goal?
 to survive until the end of the lvl
 
-W
+How is the progress shown?
 percentage bar
+
