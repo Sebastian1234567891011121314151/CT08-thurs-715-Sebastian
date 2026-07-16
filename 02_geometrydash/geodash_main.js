@@ -27,6 +27,8 @@ function setup() {
   new CanvasCaptureMediaStreamTrack(700,600);
   world.gravity.y=12
 
+
+  start
   player = new Sprite(50,height,50,50);
   player.img=cube;
   player.friction=0;
