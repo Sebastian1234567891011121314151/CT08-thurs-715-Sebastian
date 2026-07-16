@@ -27,7 +27,7 @@ function setup() {
   new CanvasCaptureMediaStreamTrack(700,600);
   world.gravity.y=12
 
-  player = new SpeechRecognitionErrorEvent()
+  player = new Sprite(50,50,50,50);
 }
 
 function draw() {
