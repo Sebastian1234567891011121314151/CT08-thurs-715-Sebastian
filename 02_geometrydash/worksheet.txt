@@ -19,4 +19,5 @@ Game setup, load assets, create players
 
 Build level and tilemaps
 
-Auto
+Auto-run and jumping
+
