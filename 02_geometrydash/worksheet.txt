@@ -41,4 +41,4 @@ touching a spike or colliding with a wall
   a-background music
   b-Death sound effect
   c-Movement Particle effects
-  d-
+  d-Death particle effects
