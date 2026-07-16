@@ -43,7 +43,8 @@ function setup() {
 
   ground=new Group();
   ground.tile="g";//represent g in the tile map
-  ground.w=TIL
+  ground.w=TILE_SIZE;
+  ground.h=TILE_SIZE;
 }
 
 function draw() {
