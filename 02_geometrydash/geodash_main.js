@@ -30,7 +30,7 @@ function setup() {
   player = new Sprite(50,50,50,50);
   player.img=cube;
   player.friction=0;
-  player.boun
+  player.bounciness=0;
 }
 
 function draw() {
