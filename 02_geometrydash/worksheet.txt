@@ -38,4 +38,5 @@ touching a spike or colliding with a wall
   b-add a finish line at the end of the level
 
 6.Visual and sound effects
-  a-background
+  a-background music
+  b-Death sound effects
