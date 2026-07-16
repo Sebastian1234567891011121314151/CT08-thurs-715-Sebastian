@@ -21,6 +21,7 @@ touching a spike or colliding with a wall
 
 Game setup, load assets, create players
 -create player variable and load image
+
 Build level and tilemaps
 
 Auto-run and jumping
