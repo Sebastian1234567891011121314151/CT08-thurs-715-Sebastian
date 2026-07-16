@@ -19,7 +19,7 @@ let bg;//background
 
 
 function preload() {
-
+    
 }
 
 function setup() {
