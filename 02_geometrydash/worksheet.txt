@@ -20,7 +20,7 @@ touching a spike or colliding with a wall
 
 
 Game setup, load assets, create players
-a-Create Canvas and map
+a-Create Canvas 
 b-create player variable and load image
 
 Build level and tilemaps
