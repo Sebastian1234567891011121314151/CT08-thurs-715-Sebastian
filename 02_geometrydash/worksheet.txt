@@ -25,11 +25,11 @@ b-create player variable and load image
 
 2.Build level and tilemaps
 
-Auto-run and jumping
+3.Auto-run and jumping
 
 
-Obstacles, orbs and reset
+4.Obstacles, orbs and reset
 
-Game start screen and level clear
+5.Game start screen and level clear
 
 Visual and sound effects
