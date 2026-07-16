@@ -26,7 +26,7 @@ touching a spike or colliding with a wall
 2.Build level and tilemaps
   a-
 3.Auto-run and jumping
-
+  a-
 
 4.Obstacles, orbs and reset
 
