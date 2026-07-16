@@ -27,10 +27,10 @@ touching a spike or colliding with a wall
   a-
 3.Auto-run and jumping
   a-player is always moving right
-  b-
+  b-player jumps on click/spacebar
 
 4.Obstacles, orbs and reset
-
+  a-addind
 5.Game start screen and level clear
 
 6.Visual and sound effects
