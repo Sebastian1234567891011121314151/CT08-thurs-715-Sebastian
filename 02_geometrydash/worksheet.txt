@@ -13,4 +13,4 @@ How is the progress shown?
 percentage bar
 
 What causes the game to end?
-touching a spike and colliding with 
+touching a spike and colliding with a wall
