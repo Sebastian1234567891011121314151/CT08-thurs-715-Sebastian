@@ -28,6 +28,7 @@ function setup() {
   world.gravity.y=12
 
   player = new Sprite(50,50,50,50);
+  
 }
 
 function draw() {
