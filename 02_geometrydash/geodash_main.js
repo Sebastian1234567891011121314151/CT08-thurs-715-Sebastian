@@ -35,7 +35,7 @@ function setup() {
 
 
   startCoordinate=[TILE_SIZE,height-TILE_SIZE/2];
-  player = new Sprite(startCoordinate[0],startCoordinate[1],50,50);
+  player = new Sprite(startCoordinate[0],startCoordinate[1],TILE_SIZE,TILE_SIZE);
   player.img=cube;
   player.friction=0;
   player.bounciness=0;
