@@ -6,7 +6,7 @@ let bg;//background
 // game variables
 let tileMap1;//Tilemap for level design
 let spike;//img for spike
-const TILE_SIZE
+const TILE_SIZE;
 // world building groups
 let ground;
 let spikes;
