@@ -10,7 +10,7 @@ let spike;//img for spike
 let ground;
 let spikes;
 let orb
-
+let finishLine;
 
 // image sprites
 
