@@ -31,6 +31,7 @@ touching a spike or colliding with a wall
 
 4.Obstacles, orbs and reset
   a-addingmore walls,spikes and orbs to the map
+  b-
 5.Game start screen and level clear
 
 6.Visual and sound effects
