@@ -61,6 +61,7 @@ function setup() {
   orbs.d=24;
   orbs.collider="static"
   orbs.color="yellow"
+  orbs.strokeWeight=
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
