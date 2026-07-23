@@ -50,6 +50,7 @@ function setup() {
   ground.collider="static";
 
   spikes=new Group();
+  spikes.tile
 
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
