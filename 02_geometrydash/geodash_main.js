@@ -84,13 +84,13 @@ function draw() {
    player.vel.x=8;
   
    if (player.x >= width/2){
-    camera.x=player.x
+    camera.x=player.x;
    }
 
    if((kb.presses("space")||mouse.presses("left"))&&playerJump==0){
     player.vel.y=-8;
     player.rotateTo(player.rotation + 359.9,15);
-    playerJump++
+    playerJump++;
    }
   // player.vel.y=-8
 }
