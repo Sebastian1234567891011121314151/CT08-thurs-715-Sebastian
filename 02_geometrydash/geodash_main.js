@@ -60,7 +60,7 @@ function setup() {
   orbs.tile="o";
   orbs.w=TILE_SIZE;
   orbs.h=TILE_SIZE;
-  
+  orbs.collider="static"
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
