@@ -85,6 +85,7 @@ function draw() {
   
    if (player.x >= width/2){
     camera.x=player.x;
+    camera.y=player.y;
    }
 
    if((kb.presses("space")||mouse.presses("left"))&&playerJump==0){
