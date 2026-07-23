@@ -64,7 +64,8 @@ function setup() {
   orbs.strokeWeight=0
 
   finish = new Group();
-  finish=
+  finish.tile="f";
+  finish
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
