@@ -81,7 +81,7 @@ function draw() {
   clear();//erase the previous frame
   image(bg,0,0,800,600);//(image,x,y,width,height)
 
-   player.vel.x=;
+   player.vel.x=6;
   
    if (player.x >= width/2){
     camera.x=player.x;
