@@ -80,8 +80,8 @@ function draw() {
 
    player.vel.x=8;
   
+   if (player.x)
 
-   
    camera.x=player.x
 
 
