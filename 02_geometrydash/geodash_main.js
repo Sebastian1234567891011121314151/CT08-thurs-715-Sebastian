@@ -56,8 +56,8 @@ function setup() {
   spikes.img=spike;
   spikes.collider="static"
 
-  orb=new Group();
-  
+  orbs=new Group();
+  ResizeObserverSize.tile="o"
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
