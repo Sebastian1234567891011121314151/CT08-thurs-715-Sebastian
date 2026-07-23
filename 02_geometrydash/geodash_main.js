@@ -51,7 +51,8 @@ function setup() {
 
   spikes=new Group();
   spikes.tile="s";
-  spikes.w=TILE
+  spikes.w=TILE_SIZE;
+  spikes.h=TILE_SIZE
 
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
