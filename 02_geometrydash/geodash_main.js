@@ -59,17 +59,17 @@ function setup() {
   orbs=new Group();
   orbs.tile="o";
   orbs.d=24;
-  orbs.collider="static"
-  orbs.color="yellow"
-  orbs.strokeWeight=0
+  orbs.collider="static";
+  orbs.color="yellow";
+  orbs.strokeWeight=0;
 
   finish = new Group();
   finish.tile="f";
   finish.w=TILE_SIZE;
-  finish.h=height*2
-  finish.collider="static"
-  finish.color="red"
-  finish.visible="true"
+  finish.h=height*2;
+  finish.collider="static";
+  finish.color="red";
+  finish.visible="true";
 
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
