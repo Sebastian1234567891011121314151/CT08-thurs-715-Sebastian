@@ -57,7 +57,8 @@ function setup() {
   spikes.collider="static"
 
   orbs=new Group();
-  ResizeObserverSize.tile="o"
+  orbs.tile="o"
+  orbs.w=Til
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
