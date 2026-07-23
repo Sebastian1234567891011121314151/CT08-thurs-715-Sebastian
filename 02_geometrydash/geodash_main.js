@@ -80,7 +80,9 @@ function draw() {
 
    player.vel.x=8
 
-   if(kb.presses("space")||mouse.presses("left"));
+   if(kb.presses("space")||mouse.presses("left")){
+    player.vel.y=-8
+   }
   // player.vel.y=-8
 }
 
