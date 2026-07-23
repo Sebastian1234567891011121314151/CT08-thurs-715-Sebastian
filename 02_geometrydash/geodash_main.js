@@ -81,11 +81,8 @@ function draw() {
    player.vel.x=8;
   
    if (player.x >= width/2){
-    
+    camera.x=player.x
    }
-
-   camera.x=player.x
-
 
    if(kb.presses("space")||mouse.presses("left")){
     player.vel.y=-8;
