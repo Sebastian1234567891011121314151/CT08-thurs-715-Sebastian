@@ -80,7 +80,9 @@ function draw() {
 
    player.vel.x=8;
   
-   if (player.x)
+   if (player.x >= width/2){
+    
+   }
 
    camera.x=player.x
 
