@@ -106,7 +106,7 @@ function draw() {
       let leftEdge= tile.x-tile.w/2;
       let leftEgeHeight= tile.y- tile.h/2;
       if(player.x<leftEdge&&player.y>leftEgeHeight){
-        
+        resetGame()
       }
     }
    }
