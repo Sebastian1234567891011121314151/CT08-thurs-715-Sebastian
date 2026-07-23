@@ -49,6 +49,7 @@ function setup() {
   ground.stroke="white";
   ground.collider="static";
 
+  
 }
 
 function draw() {
