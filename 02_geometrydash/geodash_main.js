@@ -89,7 +89,7 @@ function draw() {
    }
 
    if((kb.presses("space")||mouse.presses("left"))&&playerJump==0){
-    player.vel.y=-10;
+    player.vel.y=-8;
     player.rotateTo(player.rotation + 359.9,15);
     playerJump++;
    }
