@@ -8,7 +8,8 @@ let bg;//background
 let tileMap1;//Tilemap for level design
 let spike;//img for spike
 const TILE_SIZE =50;
-let playerJump = 0
+let playerJump = 0;
+
 // world building groups
 let ground;
 let spikes;
