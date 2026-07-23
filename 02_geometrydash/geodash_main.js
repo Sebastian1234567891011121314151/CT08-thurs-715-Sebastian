@@ -83,6 +83,7 @@ function draw() {
    camera.x=player.x
    if(kb.presses("space")||mouse.presses("left")){
     player.vel.y=-8
+    player.rotateTo(player.rotation)
    }
   // player.vel.y=-8
 }
