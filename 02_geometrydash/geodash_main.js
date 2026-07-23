@@ -49,7 +49,7 @@ function setup() {
   ground.stroke="white";
   ground.collider="static";
 
-  
+  new Tiles(tileMap1,0,0,50,50);
 }
 
 function draw() {
