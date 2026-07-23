@@ -78,8 +78,8 @@ function draw() {
   clear();//erase the previous frame
   image(bg,0,0,800,600);//(image,x,y,width,height)
 
-  player.vel.x=8
-  player.vel.y=-8
+  // player.vel.x=8
+  // player.vel.y=-8
 }
 
 
