@@ -69,6 +69,7 @@ function setup() {
   finish.h=height*2
   finish.collider="static"
   finish.color="red"
+  finish
 
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
