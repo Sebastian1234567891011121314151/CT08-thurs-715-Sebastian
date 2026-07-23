@@ -58,7 +58,8 @@ function setup() {
 
   orbs=new Group();
   orbs.tile="o"
-  orbs.w=Til
+  orbs.w=TILE_SIZE
+  orbs.h=TILE_SIZE;
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
