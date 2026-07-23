@@ -30,7 +30,7 @@ spike=loadImage("assets/spike.png");
 }
 
 function setup() {
-  new CanvasCaptureMediaStreamTrack(700,600);
+  new Canvas(700,600);
   world.gravity.y=12;
 
 
