@@ -56,7 +56,8 @@ function setup() {
   spikes.img=spike;
   spikes.collider="static"
 
-  orb
+  orb=new Group();
+  
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
