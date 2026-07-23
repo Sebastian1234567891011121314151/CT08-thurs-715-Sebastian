@@ -81,7 +81,7 @@ function draw() {
   clear();//erase the previous frame
   image(bg,0,0,800,600);//(image,x,y,width,height)
 
-   player.vel.x=8;
+   player.vel.x=;
   
    if (player.x >= width/2){
     camera.x=player.x;
@@ -89,7 +89,7 @@ function draw() {
    }
 
    if((kb.presses("space")||mouse.presses("left"))&&playerJump==0){
-    player.vel.y=-8;
+    player.vel.y=-10;
     player.rotateTo(player.rotation + 359.9,15);
     playerJump++;
    }
