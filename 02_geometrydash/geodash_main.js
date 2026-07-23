@@ -103,7 +103,9 @@ function draw() {
    }
 
    for (let tile of ground){
-    
+    if(player.collides(tile)){
+      let leftEdge tile.x-tile.w/2;
+    }
    }
 }
 
