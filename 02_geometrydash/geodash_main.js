@@ -62,6 +62,8 @@ function setup() {
   orbs.collider="static"
   orbs.color="yellow"
   orbs.strokeWeight=0
+
+  finishline
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
