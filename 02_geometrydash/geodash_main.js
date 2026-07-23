@@ -97,7 +97,9 @@ function draw() {
     playerJump = 0;
    }
 
-   
+   if(player.collides(spikes)){
+    
+   }
 }
 
 
