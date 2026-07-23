@@ -98,7 +98,8 @@ function draw() {
    }
 
    if(player.collides(spikes)){
-    
+    player.x=startCoordinate[0];
+    player.y=startCoordinate[]
    }
 }
 
