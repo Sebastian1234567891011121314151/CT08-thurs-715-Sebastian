@@ -93,7 +93,9 @@ function draw() {
     playerJump++;
    }
 
-   if (player.collides(ground))
+   if (player.collides(ground)){
+    playerJump = 0;
+   }
 }
 
 
