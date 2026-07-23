@@ -54,12 +54,13 @@ function setup() {
   spikes.w=TILE_SIZE;
   spikes.h=TILE_SIZE
   spikes.img=spike;
-  spikes.collider="static"
+  spikes.collider="static";
 
   orbs=new Group();
-  orbs.tile="o"
-  orbs.w=TILE_SIZE
+  orbs.tile="o";
+  orbs.w=TILE_SIZE;
   orbs.h=TILE_SIZE;
+  
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
