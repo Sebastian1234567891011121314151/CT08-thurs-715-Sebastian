@@ -99,7 +99,7 @@ function draw() {
    }
 
    if(player.collides(spikes)){
-    rese
+    resetGame()
    }
 }
 
