@@ -99,15 +99,15 @@ function draw() {
    }
 
    if(player.collides(spikes)){
-    player.x=startCoordinate[0];
-    player.y=startCoordinate[1];
-    player.rotation=0;
-    playerJump=0;
+    rese
    }
 }
 
 function resetGame(){
-  
+    player.x=startCoordinate[0];
+    player.y=startCoordinate[1];
+    player.rotation=0;
+    playerJump=0;
 }
 
 
