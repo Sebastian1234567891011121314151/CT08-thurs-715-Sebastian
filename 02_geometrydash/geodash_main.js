@@ -63,7 +63,7 @@ function setup() {
   orbs.color="yellow"
   orbs.strokeWeight=0
 
-  finishline
+  finishline = new Group()
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
