@@ -49,7 +49,7 @@ function setup() {
   ground.stroke="white";
   ground.collider="static";
 
-  spikes=new Group();
+  spikes=new Group()
 
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
