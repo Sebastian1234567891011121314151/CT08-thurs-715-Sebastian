@@ -58,7 +58,7 @@ function setup() {
 
   orbs=new Group();
   orbs.tile="o";
-  orbs.d=TILE_SIZE;
+  orbs.d=24;
   orbs.collider="static"
   orbs.color="yellow"
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
