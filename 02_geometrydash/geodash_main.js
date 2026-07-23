@@ -34,7 +34,7 @@ spike=loadImage("assets/spike.png");
 
 function setup() {
   new Canvas(800,600);
-  world.gravity.y=12;
+  world.gravity.y=13;
 
 
   startCoordinate=[TILE_SIZE,height-TILE_SIZE/2];
