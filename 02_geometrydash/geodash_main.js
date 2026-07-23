@@ -86,7 +86,7 @@ function draw() {
    if (player.x >= width/2){
     camera.x=player.x
    }
-
+if (playerJump=0
    if(kb.presses("space")||mouse.presses("left")){
     player.vel.y=-8;
     player.rotateTo(player.rotation + 359.9,15);
