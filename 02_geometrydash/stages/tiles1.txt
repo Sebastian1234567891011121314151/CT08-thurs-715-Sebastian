@@ -1,32 +1,3 @@
-
-
-
-
-
-
-
-
-                                      
-                                       
-            o                          
-        g       g                      
-      sgssgsssg            s            
-                                       
-                    g                   
-                  s g s                 
-               ggggggg                  
-                                       
-                           o           
-                        g     g        
-                    s   g s   g   s    
-                 ggggggggggggggggg     
-                                       
-                              s        
-                           ggg         
-                        s      s       
-                     ggggg  ggggg      
-                                       
-                o                      
-            g        g                 
-         s  g  s   s g  s              
-gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+                          o                          o                          o                    
+          s     ss     s      s    sss      ss          s      ss      s      s                    
+gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
