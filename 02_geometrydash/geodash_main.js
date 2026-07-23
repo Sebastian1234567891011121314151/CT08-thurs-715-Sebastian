@@ -46,7 +46,7 @@ function setup() {
   ground.w=TILE_SIZE;//width
   ground.h=TILE_SIZE;//height
   ground.color="black";
-  ground.stroke="black";
+  ground.stroke="white";
   ground.collider="static";
 
 }
