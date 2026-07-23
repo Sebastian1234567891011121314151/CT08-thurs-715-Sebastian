@@ -66,7 +66,7 @@ function setup() {
   finish = new Group();
   finish.tile="f";
   finish.w=TILE_SIZE;
-  finish.h=height
+  finish.h=height*2
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
