@@ -39,7 +39,7 @@ function setup() {
   player.img=cube;
   player.friction=0;
   player.bounciness=0;
-  player.collider="none";
+  player.collider="dynamic";
 
   ground=new Group();
   ground.tile="g";//represent g in the tile map
