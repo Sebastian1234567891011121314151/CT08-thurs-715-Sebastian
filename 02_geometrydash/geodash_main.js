@@ -67,7 +67,8 @@ function setup() {
   finish.tile="f";
   finish.w=TILE_SIZE;
   finish.h=height*2
-  fiinsh.collider="none"
+  fiinsh.collider="static"
+
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 }
 
