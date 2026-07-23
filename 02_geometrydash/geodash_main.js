@@ -3,6 +3,7 @@ let box;//PLayer sprite
 let cube;//Image for player sprite
 let bg;//background
 
+
 // game variables
 let tileMap1;//Tilemap for level design
 let spike;//img for spike
