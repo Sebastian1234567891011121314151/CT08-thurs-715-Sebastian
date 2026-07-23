@@ -98,7 +98,7 @@ function draw() {
     playerJump = 0;
    }
 
-   if(player.collides(spikes)|| player.x<leftEdge&&player.y){
+   if(player.collides(spikes)|| player.x<leftEdge&&player.y>leftEgeHeight){
     resetGame()
    }
 
