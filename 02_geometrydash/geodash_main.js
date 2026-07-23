@@ -92,7 +92,8 @@ function draw() {
     player.rotateTo(player.rotation + 359.9,15);
     playerJump++;
    }
-  // player.vel.y=-8
+
+   if (player.collides(ground))
 }
 
 
