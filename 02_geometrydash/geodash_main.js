@@ -106,6 +106,9 @@ function draw() {
    }
 }
 
+function resetGame(){
+  
+}
 
 
 
