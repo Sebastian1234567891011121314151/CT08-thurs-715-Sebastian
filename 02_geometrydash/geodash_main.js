@@ -47,10 +47,10 @@ function setup() {
   new Canvas(800,600);
   world.gravity.y=25;
 
+startSprite.visible=true;
 
 
 
-  
   startCoordinate=[TILE_SIZE,height-TILE_SIZE/2];
   player = new Sprite(startCoordinate[0],startCoordinate[1],TILE_SIZE,TILE_SIZE);
   player.img=cube;
