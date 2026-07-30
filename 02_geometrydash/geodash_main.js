@@ -49,6 +49,7 @@ function setup() {
 
 startSprite.visible=true;
 startSprite=new Sprite(width/2,height/2,190,90);
+startSprite
 
 
 
