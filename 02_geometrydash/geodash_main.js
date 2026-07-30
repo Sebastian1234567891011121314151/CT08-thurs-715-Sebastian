@@ -112,7 +112,9 @@ function draw() {
    }
 
    for(let orb of orbs){
-    if (box.colliding(orb))
+    if (box.colliding(orb)){
+      orb.visible
+    }
    }
 
 
