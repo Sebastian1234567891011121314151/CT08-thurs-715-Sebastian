@@ -136,6 +136,9 @@ function draw() {
       jumpChance=MAX_JUMP;
     }
    }
+   if(!startGame &&(mouse.presses()||kb.presses("space"))){
+    
+   }
 
 
 }
