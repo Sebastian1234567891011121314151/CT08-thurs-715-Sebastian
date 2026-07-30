@@ -112,7 +112,7 @@ function draw() {
    if(startGame){
     player.vel.x=5.5;
     if (box.collides(finishLine)){
-      triggerGameOver{};
+      triggerGameOver();
     }
     if (player.x >= width/2){
       camera.x=player.x;
