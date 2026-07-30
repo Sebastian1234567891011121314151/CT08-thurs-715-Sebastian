@@ -39,6 +39,7 @@ cube = loadImage("assets/cube.png");
 bg= loadImage("assets/geobg.png");
 tileMap1=loadStrings("stages/tiles1.txt");
 spike=loadImage("assets/spike.png");
+startGameImg
 }
 
 function setup() {
