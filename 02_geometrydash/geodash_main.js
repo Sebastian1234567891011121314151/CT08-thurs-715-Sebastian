@@ -181,7 +181,7 @@ function triggerGameOver(){
     }
     endSprite=new SPrite(box.x,height/2,126,24);
     endSprite.collider="none";
-    
+    endSprite.img=endGameImg;
   }
 }
 
