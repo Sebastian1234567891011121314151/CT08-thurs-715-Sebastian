@@ -113,7 +113,8 @@ function draw() {
 
    for(let orb of orbs){
     if (box.colliding(orb)){
-      orb.visible
+      orb.visible=false;
+      orb.collider
     }
    }
 
