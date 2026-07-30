@@ -174,7 +174,12 @@ function triggerGameOver(){
 
     box.vel.x=0
     jumpChance=0 
-    endTimer
+    endTimer=frameCount;
+
+    if(endSprite){
+      ensSprite.remove();
+      
+    }
   }
 }
 
