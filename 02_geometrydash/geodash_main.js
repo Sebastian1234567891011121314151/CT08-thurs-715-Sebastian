@@ -16,7 +16,10 @@ let spikes;
 let orb;
 let finishLine;
 
-let
+let startGame = false;
+let gameover = false;
+let endTimer =0;
+
 // image sprites
 
 
