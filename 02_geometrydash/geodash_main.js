@@ -48,6 +48,7 @@ function setup() {
   world.gravity.y=25;
 
 startSprite.visible=true;
+startSprite=new Sprite(width/2,height/)
 
 
 
