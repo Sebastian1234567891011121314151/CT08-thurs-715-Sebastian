@@ -98,7 +98,7 @@ function draw() {
    }
 
    if(player.collides(spikes)){
-    resetGame()
+    resetGame();
    }
 
    for (let tile of ground){
@@ -106,7 +106,7 @@ function draw() {
       let leftEdge= tile.x-tile.w/2;
       let leftEgeHeight= tile.y- tile.h/2;
       if(player.x<leftEdge&&player.y>leftEgeHeight){
-        resetGame()
+        resetGame();
       }
     }
    }
@@ -128,11 +128,11 @@ function resetGame(){
     player.y=startCoordinate[1];
     player.rotation=0;
     playerJump=0;
-    camera.x=width/2
+    camera.x=width/2;
 
     for(let orb of orbs){
       orb.visible=true;
-      orb.collider="static"
+      orb.collider="static";
     }
 }
 
