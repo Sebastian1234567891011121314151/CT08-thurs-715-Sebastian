@@ -173,6 +173,8 @@ function triggerGameOver(){
     gameover=true;
 
     box.vel.x=0
+    jumpChance=0 
+    endTimer
   }
 }
 
