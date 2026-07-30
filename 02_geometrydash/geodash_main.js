@@ -16,6 +16,7 @@ let spikes;
 let orb;
 let finishLine;
 
+let
 // image sprites
 
 
