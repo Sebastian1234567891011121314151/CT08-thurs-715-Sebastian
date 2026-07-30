@@ -129,6 +129,10 @@ function resetGame(){
     player.rotation=0;
     playerJump=0;
     camera.x=width/2
+
+    for(let orb of orbs){
+      orb.visible
+    }
 }
 
 
