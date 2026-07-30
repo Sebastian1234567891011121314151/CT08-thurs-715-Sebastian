@@ -48,6 +48,9 @@ function setup() {
   world.gravity.y=25;
 
 
+
+
+  
   startCoordinate=[TILE_SIZE,height-TILE_SIZE/2];
   player = new Sprite(startCoordinate[0],startCoordinate[1],TILE_SIZE,TILE_SIZE);
   player.img=cube;
