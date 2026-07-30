@@ -188,4 +188,7 @@ function triggerGameOver(){
 
 
 
-function loadLevel()
+function loadLevel(){
+  ground.removeAll();
+  sharp.removeAll
+}
