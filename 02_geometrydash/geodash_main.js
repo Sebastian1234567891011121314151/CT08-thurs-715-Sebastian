@@ -2,6 +2,11 @@
 let box;//PLayer sprite
 let cube;//Image for player sprite
 let bg;//background
+let startSprite;
+let endSprite;
+
+let startGameImg;
+let endGameImg;
 
 
 // game variables
