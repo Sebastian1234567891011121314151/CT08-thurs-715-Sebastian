@@ -190,5 +190,7 @@ function triggerGameOver(){
 
 function loadLevel(){
   ground.removeAll();
-  sharp.removeAll
+  sharp.removeAll();
+  orbs.removeAll();
+  finishline
 }
