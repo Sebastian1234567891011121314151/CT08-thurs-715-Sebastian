@@ -95,47 +95,10 @@ function setup() {
 }
 
 function draw() {
-  clear();//erase the previous frame
-  image(bg,0,0,800,600);//(image,x,y,width,height)
+   clear();//erase the previous frame
+   image(bg,0,0,800,600);//(image,x,y,width,height)
 
-   player.vel.x=5.5;
-  
-   if (player.x >= width/2){
-    camera.x=player.x;
-   }
-
-   if((kb.presses("space")||mouse.presses("left"))&&playerJump==0){
-    player.vel.y=-10;
-    player.rotateTo(player.rotation + 359.9,15);
-    playerJump++;
-   }
-
-   if (player.collides(ground)){
-    playerJump = 0;
-   }
-
-   if(player.collides(spikes)){
-    resetGame();
-   }
-
-   for (let tile of ground){
-    if(player.collides(tile)){
-      let leftEdge= tile.x-tile.w/2;
-      let leftEgeHeight= tile.y- tile.h/2;
-      if(player.x<leftEdge&&player.y>leftEgeHeight){
-        resetGame();
-      }
-    }
-   }
-
-   for(let orb of orbs){
-    if (box.colliding(orb)){
-      orb.visible=false;
-      orb.collider="none";
-      box.vel.y=-5;
-      jumpChance=MAX_JUMP;
-    }
-   }
+ 
    if(!startGame &&(mouse.presses()||kb.presses("space"))){
     startGame=true;
     startSprite.visible=false;
@@ -146,7 +109,46 @@ function draw() {
       startSprite.visible=false;
     }
    }
+   if(startGame){
+    player.vel.x=5.5;
+  
+    if (player.x >= width/2){
+      camera.x=player.x;
+    }
 
+    if((kb.presses("space")||mouse.presses("left"))&&playerJump==0){
+      player.vel.y=-10;
+      player.rotateTo(player.rotation + 359.9,15);
+      playerJump++;
+    }
+
+    if (player.collides(ground)){
+      playerJump = 0;
+    }
+
+    if(player.collides(spikes)){
+      resetGame();
+    }
+
+    for (let tile of ground){
+      if(player.collides(tile)){
+        let leftEdge= tile.x-tile.w/2;
+        let leftEgeHeight= tile.y- tile.h/2;
+        if(player.x<leftEdge&&player.y>leftEgeHeight){
+          resetGame();
+        }
+      }
+    }
+
+    for(let orb of orbs){
+      if (box.colliding(orb)){
+        orb.visible=false;
+        orb.collider="none";
+        box.vel.y=-5;
+        jumpChance=MAX_JUMP;
+      }
+    }
+   }
 
 }
 
