@@ -165,9 +165,6 @@ function resetGame(){
     }
 }
 
-
-
-
 function triggerGameOver(){
   if(!gameover){
     gameover=true;
@@ -179,7 +176,7 @@ function triggerGameOver(){
     if(endSprite){
       ensSprite.remove();
     }
-    endSprite=new SPrite(box.x,height/2,126,24);
+    endSprite=new Sprite(box.x,height/2,126,24);
     endSprite.collider="none";
     endSprite.img=endGameImg;
   }
