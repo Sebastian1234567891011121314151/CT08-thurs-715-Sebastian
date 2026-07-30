@@ -47,10 +47,10 @@ function setup() {
   new Canvas(800,600);
   world.gravity.y=25;
 
-startSprite.visible=true;
-startSprite=new Sprite(width/2,height/2,190,90);
-startSprite.img=startGameImg;
-startSprite
+  // startSprite.visible=true;
+  startSprite=new Sprite(width/2,height/2,190,90);
+  startSprite.img=startGameImg;
+  startSprite.collider
 
 
 
