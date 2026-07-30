@@ -115,7 +115,8 @@ function draw() {
     if (box.colliding(orb)){
       orb.visible=false;
       orb.collider="none";
-      box
+      box.vel.y=-5;
+      jumpChance=MAX_JUMP;
     }
    }
 
