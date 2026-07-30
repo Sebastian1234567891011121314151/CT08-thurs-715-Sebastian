@@ -170,7 +170,9 @@ function resetGame(){
 
 function triggerGameOver(){
   if(!gameover){
-    
+    gameover=true;
+
+    box.vel.x=0
   }
 }
 
