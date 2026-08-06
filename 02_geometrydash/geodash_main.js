@@ -151,7 +151,7 @@ for (let orb of orbs) {
   }
 }
 if(frameCount%3===0 && BaseAudioContext.colliding(ground)&&BaseAudioContext.vel.x>=0.5){
-  let particle = new Sprite(box.x, box.y + box.h/2,)
+  let particle = new Sprite(box.x, box.y + box.h/2,8,8,"none")
 }
   }
 }
