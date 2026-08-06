@@ -92,6 +92,8 @@ function setup() {
   finish.visible="true";
 
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
+
+  mapUsed=tileMap1
 }
 
 function draw() {
