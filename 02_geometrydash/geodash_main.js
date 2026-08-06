@@ -92,6 +92,7 @@ function setup() {
 function draw() {
   clear(); //erase the previous frame
   image(bg, 0, 0, 800, 600);
+  drawBackground();
 
   if (!startGame && (mouse.presses() || kb.presses("space"))) {
     startGame = true;
