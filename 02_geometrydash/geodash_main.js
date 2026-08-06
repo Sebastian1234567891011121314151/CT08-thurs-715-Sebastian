@@ -154,7 +154,8 @@ if(frameCount%3===0 && BaseAudioContext.colliding(ground)&&BaseAudioContext.vel.
   let particle = new Sprite(box.x, box.y + box.h/2,8,8,"none");
   particle.color="white";
   particle.strokeWeight=0;
-  particle.vel.x=
+  particle.vel.x=-5;
+  particle.vel.y=random(-2,0)
 }
   }
 }
