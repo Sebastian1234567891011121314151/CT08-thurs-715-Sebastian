@@ -204,6 +204,8 @@ function loadLevel(){
   }
   
   }
+
+  drawBackground()
 }
 
 function drawBackground() {
