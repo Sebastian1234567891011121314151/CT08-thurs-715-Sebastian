@@ -187,10 +187,9 @@ function loadLevel() {
   orbs.removeAll();
   finish.removeAll();
 
-  level++; // was never incremented, so this never advanced
+  level++;
 
   if (level > lastlevel) {
-    // finished the last level — wrap back to 1 and show the clear screen
     level = 1;
     triggerGameOver();
   }
@@ -206,8 +205,6 @@ function loadLevel() {
   player.x = startCoordinate[0];
   player.y = startCoordinate[1];
   camera.x = width / 2;
-
-  
 }
 
 function drawBackground() {
