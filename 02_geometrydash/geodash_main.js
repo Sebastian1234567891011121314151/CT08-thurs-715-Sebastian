@@ -206,7 +206,7 @@ function loadLevel() {
   player.y = startCoordinate[1];
   camera.x = width / 2;
 
-  drawBackground();
+  
 }
 
 function drawBackground() {
