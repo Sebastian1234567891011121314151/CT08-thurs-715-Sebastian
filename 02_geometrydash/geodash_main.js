@@ -155,7 +155,8 @@ if(frameCount%3===0 && BaseAudioContext.colliding(ground)&&BaseAudioContext.vel.
   particle.color="white";
   particle.strokeWeight=0;
   particle.vel.x=-5;
-  particle.vel.y=random(-2,0)
+  particle.vel.y=random(-2,0);
+  particle.life=30;
 }
   }
 }
