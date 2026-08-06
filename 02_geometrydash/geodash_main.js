@@ -93,7 +93,7 @@ function setup() {
 
   new Tiles(tileMap1,0,0,TILE_SIZE,TILE_SIZE);
 
-  mapUsed=tileMap1
+  mapUsed=tileMap1;
 }
 
 function draw() {
@@ -197,10 +197,10 @@ function loadLevel(){
     
   if (level===1){
     new Tiles(tilesMap1,0,0,50,50);
-    mapUsed=tileMap1
+    mapUsed=tileMap1;
   }else if (level ===2){
     new Tiles(tileMap2,0,0,50,50)
-    mapUsed=tileMap1
+    mapUsed=tileMap2;
   }
   
   }
