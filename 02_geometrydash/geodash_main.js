@@ -153,13 +153,13 @@ for (let orb of orbs) {
     playerJump = 0; // lets the player jump again after the boost
   }
 }
-if(frameCount%3===0 && BaseAudioContext.colliding(ground)&&BaseAudioContext.vel.x>=0.5){
-  let particle = new Sprite(box.x, box.y + box.h/2,8,8,"none");
-  particle.color="white";
-  particle.strokeWeight=0;
-  particle.vel.x=-5;
-  particle.vel.y=random(-2,0);
-  particle.life=30;
+if (frameCount % 3 === 0 && player.colliding(ground) && player.vel.x >= 0.5) {
+  let particle = new Sprite(player.x, player.y + player.h / 2, 8, 8, "none");
+  particle.color = "white";
+  particle.strokeWeight = 0;
+  particle.vel.x = -5;
+  particle.vel.y = random(-2, 0);
+  particle.life = 30;
 }
   }
 }
