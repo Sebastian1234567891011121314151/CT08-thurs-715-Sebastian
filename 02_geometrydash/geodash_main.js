@@ -14,7 +14,7 @@ let tileMap1;//Tilemap for level design
 let spike;//img for spike
 const TILE_SIZE =50;
 let playerJump = 0;
-
+let mapused;
 // world building groups
 let ground;
 let spikes;
