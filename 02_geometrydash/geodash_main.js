@@ -217,18 +217,13 @@ function drawBackground() {
   if (lastRow.length === 0 && mapUsed.length > 1) {
     lastRow = mapUsed[mapUsed.length - 2];
   }
-
   let numCols = lastRow.length;
   let totalJourney = numCols * 50;
-
   let progress = map(player.x, 0, totalJourney, -100, 0);
-
   let c1 = color("#9933ff");
   let c2 = color("#4169e1");
-
   let amt = (sin(frameCount * 0.5) + 1) / 2;
   let blend = lerpColor(c1, c2, amt);
-
   tint(blend);
   image(bg, progress, 0, 800, 600);
   noTint();
