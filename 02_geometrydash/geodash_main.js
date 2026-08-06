@@ -150,7 +150,9 @@ for (let orb of orbs) {
     playerJump = 0; // lets the player jump again after the boost
   }
 }
-if(frameCount%3===0 && BaseAudioContext.colliding(ground)&&BaseAudioContext.vel.x>=0.5)
+if(frameCount%3===0 && BaseAudioContext.colliding(ground)&&BaseAudioContext.vel.x>=0.5){
+  let particle
+}
   }
 }
 
