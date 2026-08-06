@@ -16,6 +16,9 @@ let playerJump = 0;
 let mapUsed;
 let player;
 let startCoordinate;
+let backgroundtrack
+let failsound
+let passsound
 
 // world building groups
 let ground;
