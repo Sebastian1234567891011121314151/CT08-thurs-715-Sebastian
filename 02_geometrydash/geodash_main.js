@@ -140,14 +140,16 @@ function draw() {
       }
     }
 
-    for (let orb of orbs) {
-      if (player.colliding(orb)) {
-        orb.visible = false;
-        orb.collider = "none";
-        player.vel.y = -5;
-        playerJump = 0;
-      }
-    }
+const ORB_BOOST = -12; // stronger than a normal jump (-10), so it reads as a power-up
+
+for (let orb of orbs) {
+  if (player.colliding(orb) && orb.collider !== "none") {
+    orb.visible = false;
+    orb.collider = "none";
+    player.vel.y = ORB_BOOST;
+    playerJump = 0; // lets the player jump again after the boost
+  }
+}
   }
 }
 
