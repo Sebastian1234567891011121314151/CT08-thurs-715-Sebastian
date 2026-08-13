@@ -7,7 +7,7 @@
                                                  ss
                                o                 gg                                                                      g
                           o                                                                                          g       g
-                    o           sss         gg                                                                   g
-            ggg                 ggg   ggg             g    g    g    g              ggg        ggg           g
+                    o           sss         gg                                                                   g               g
+            ggg                 ggg   ggg             g    g    g    g              ggg        ggg           g                       g
       s         ssssssssssssss                     sssgssssgssssgssssgss  g    ssggggg  s    s     s     s                   
 ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
