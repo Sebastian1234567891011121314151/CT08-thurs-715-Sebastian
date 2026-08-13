@@ -8,6 +8,6 @@
                                o                 gg
                           o                     
                     o           sss         gg                       
-            ggg                 ggg   ggg             g    g    g    g              ggg        ggg
-      s         ssssssssssssss                     sssgssssgssssgssssgss  g    ssggggg  s    s     s     s                  
+            ggg                 ggg   ggg             g    g    g    g              ggg        ggg           g
+      s         ssssssssssssss                     sssgssssgssssgssssgss  g    ssggggg  s    s     s     s                   
 ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
