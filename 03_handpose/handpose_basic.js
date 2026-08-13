@@ -9,7 +9,7 @@
 function preload() {}
 
 function setup() {}
-    createCanvas(vide)
+    createCanvas(videoW, vidoeH);
 function draw() {}
 
 //=========================================
