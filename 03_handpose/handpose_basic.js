@@ -7,7 +7,7 @@
 //=========================================
 
 function preload() {}
-
+let options
 function setup() {}
     createCanvas(videoW, vidoeH);
     let constraints = {
