@@ -22,7 +22,7 @@ function preload() {
 }   
 
 function setup() {
-    createCanvas(videoW, vidoeH);
+    createCanvas(videoW, videoH);
     let constraints = {
         video: {
             mandatory: {
