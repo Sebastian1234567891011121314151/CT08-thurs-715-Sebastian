@@ -17,7 +17,7 @@ function preload() {
         modelType:"full",
         detectorModeUrl:undefined,
         landmarkModelUrl:undefined,
-    }
+    };
     handPose = ml5.handPose(options);
 }   
 
