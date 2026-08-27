@@ -53,7 +53,7 @@ function draw() {
         let hand = hands[i];
         // loop through all the 21 keypoints
         for (let j = 0; j < hand.keypoints.length; j++) {
-            let keypoint = hand.keypoints[j];
+            let keypoint = hand.keypoints[8];
 
             // for every keypoint, draw a circle.
             circle(keypoint.x, keypoint.y, 10);
