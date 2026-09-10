@@ -11,10 +11,10 @@ balloon.collider="dynamic";
 balloon.color="yellow";
 balloon.bounciness=0.8;
 balloon.mass=5;
-balloon.drag=
+balloon.drag=0;
 
 }
 
 function draw(){
-
+image(video,0,0,videoW,videoH);
 }
