@@ -3,6 +3,7 @@ function preload(){
 }
 
 function setup(){
+fingerTip.color
 balloon=new Sprite();
 balloon.x=width/2;
 balloon.y=height*0.1;
