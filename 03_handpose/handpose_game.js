@@ -1,12 +1,3 @@
-function preload(){
-balloonImg=loadImage("assets/balloon.png");
-}
-
-function setup(){
-fingerTip.color="white";
-
-
-}
 
 
 //=========================================
@@ -53,6 +44,11 @@ function setup() {
     video.hide();
 
     handPose.detectStart(video, gotHands);
+
+    fingerTip=new Sprite();
+    
+
+
 
     balloon=new Sprite();
     balloon.x=width/2;
