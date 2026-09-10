@@ -1,9 +1,9 @@
 function preload(){
-
+balloonImg=loadImage("assets/balloon.png");
 }
 
 function setup(){
-fingerTip.color
+fingerTip.color="white";
 balloon=new Sprite();
 balloon.x=width/2;
 balloon.y=height*0.1;
