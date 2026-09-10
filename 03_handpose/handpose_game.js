@@ -10,7 +10,8 @@ balloon.diameter=80;
 balloon.collider="dynamic";
 balloon.color="yellow";
 balloon.bounciness=0.8;
-
+balloon.mass=5;
+balloon.drag=
 
 }
 
