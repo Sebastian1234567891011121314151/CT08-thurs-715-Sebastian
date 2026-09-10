@@ -26,6 +26,7 @@ function preload() {
 }   
 
 function setup() {
+    
     createCanvas(videoW, videoH);
     let constraints = {
         video: {
@@ -48,7 +49,7 @@ function setup() {
     fingerTip=new Sprite();
     fingerTip.diameter=60;
     fingerTip.collider="kinematic";
-    fingerTip.color
+    fingerTip.color="white";
 
 
 
