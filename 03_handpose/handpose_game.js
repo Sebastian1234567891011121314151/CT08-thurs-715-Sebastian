@@ -9,7 +9,8 @@ balloon.y=height*0.1;
 balloon.diameter=80;
 balloon.collider="dynamic";
 balloon.color="yellow";
-balloon.
+balloon.bounciness=0.8;
+
 
 }
 
