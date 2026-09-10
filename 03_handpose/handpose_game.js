@@ -3,7 +3,8 @@ function preload(){
 }
 
 function setup(){
-balloon=
+balloon=new Sprite();
+ballon.x
 }
 
 function draw(){
