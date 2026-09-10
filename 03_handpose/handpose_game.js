@@ -26,7 +26,7 @@ function preload() {
 }   
 
 function setup() {
-    
+    world.gravity.y=1;
     createCanvas(videoW, videoH);
     let constraints = {
         video: {
