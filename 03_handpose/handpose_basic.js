@@ -68,14 +68,6 @@ function setup() {
     balloon.mass=5;
     balloon.drag=0;
 
-    // BALL ADDED
-    ball=new Sprite();
-    ball.x=width/2;
-    ball.y=height*0.3;
-    ball.diameter=40;
-    ball.collider="dynamic";
-    ball.color="red";
-    ball.
 
 
     leftWall=new Sprite();
