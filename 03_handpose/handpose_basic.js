@@ -75,7 +75,7 @@ function setup() {
     ball.diameter=40;
     ball.collider="dynamic";
     ball.color="red";
-    ball.bounciness=0.8;
+    ball.
 
 
     leftWall=new Sprite();
