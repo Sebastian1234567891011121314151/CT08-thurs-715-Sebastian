@@ -24,6 +24,8 @@ function preload() {
         landmarkModelUrl:undefined,
     };
     handPose = ml5.handPose(options);
+
+    boundSound = loadSound("assets/bounce.mp3");
 }   
 
 function setup() {
