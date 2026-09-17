@@ -11,8 +11,7 @@ let hands=[];
 let balloon;
 let fingerTip;
 let bounceSound
-//=========================================
-// Code
+//===============
 //=========================================
 
 function preload() {
