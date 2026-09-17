@@ -99,17 +99,4 @@ function setup() {
 function gotHands(results) {
     hands = results;
 }
-function draw() {
-    image(video, 0, 0, videoW, videoH);
-
-    for(let i=0; i<hands.length; i++){ 
-        let hand = hands[i]; 
-        let keypoint = hand.keypoints[8]; 
-        fingerTip.x=keypoint.x; 
-        fingerTip.y=keypoint.y;
-    }
-
-if (balloon.collides(fingerTip)) {
-    bounceSound.play();
-}
-}
+function draw() {}
