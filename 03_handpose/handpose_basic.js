@@ -100,7 +100,6 @@ function setup() {
 function gotHands(results) {
     hands = results;
 }
-
 function draw() {
     image(video, 0, 0, videoW, videoH);
 
@@ -113,6 +112,11 @@ function draw() {
 
     if (balloon.collides(fingerTip)) {
         bounceSound.play();
+    }
+
+    // BALL BOUNCES WHEN FINGER HITS IT
+    if (ball.collides(fingerTip)) {
+        ball.vel.y=-8;
     }
 }
 
