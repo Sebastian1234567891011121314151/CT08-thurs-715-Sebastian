@@ -25,7 +25,7 @@ function preload() {
     };
     handPose = ml5.handPose(options);
 
-    boundSound = loadSound("assets/bounce.mp3");
+    bounceSound = loadSound("assets/bounce.mp3");
 }   
 
 function setup() {
