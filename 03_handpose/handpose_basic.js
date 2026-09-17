@@ -114,7 +114,7 @@ function draw() {
         bounceSound.play();
     }
 
-    // BALL BOUNCES WHEN FINGER HITS IT
+    // BALL BOUNCES WHEN FINGER H
     if (ball.collides(fingerTip)) {
         ball.vel.y=-8;
     }
