@@ -116,8 +116,8 @@ function draw() {
         bounceSound.play();
     }
 
-    if (ball.collides(fingerTip)) {
-        ball.vel.y=-8;
+    if (balloon.collides(fingerTip)) {
+        balloon.vel.y=-8;
     }
 }
 
