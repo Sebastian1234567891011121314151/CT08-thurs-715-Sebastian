@@ -26,9 +26,7 @@ function preload() {
     handPose = ml5.handPose(options);
 
     bounceSound = loadSound("assets/bounce.mp3");
-}   
-
-function setup() {
+} function setup() {
     world.gravity.y=1;
     createCanvas(videoW, videoH);
     let constraints = {
@@ -97,6 +95,4 @@ function setup() {
 
 
 function gotHands(results) {
-    hands = results;
 }
-function draw() {}
