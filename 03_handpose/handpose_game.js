@@ -10,6 +10,7 @@ let videoH = 480;
 let hands=[];
 let balloon;
 let fingerTip;
+let bounceSound
 //=========================================
 // Code
 //=========================================
