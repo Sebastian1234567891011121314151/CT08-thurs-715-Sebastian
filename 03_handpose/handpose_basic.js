@@ -1,4 +1,5 @@
-
+```javascript
+//=========================================
 // Variables
 //=========================================
 let handPose;
@@ -6,6 +7,13 @@ let video;
 let videoW = 640;
 let videoH = 480;
 let hands=[];
+let balloon;
+let fingerTip;
+let bounceSound;
+
+// BALL ADDED
+let ball;
+
 //=========================================
 // Code
 //=========================================
@@ -19,9 +27,12 @@ function preload() {
         landmarkModelUrl:undefined,
     };
     handPose = ml5.handPose(options);
+
+    bounceSound = loadSound("assets/bounce.mp3");
 }   
 
 function setup() {
+    world.gravity.y=1;
     createCanvas(videoW, videoH);
     let constraints = {
         video: {
@@ -40,27 +51,79 @@ function setup() {
     video.hide();
 
     handPose.detectStart(video, gotHands);
+
+    fingerTip=new Sprite();
+    fingerTip.diameter=60;
+    fingerTip.collider="kinematic";
+    fingerTip.color="white";
+
+
+    balloon=new Sprite();
+    balloon.x=width/2;
+    balloon.y=height*0.1;
+    balloon.diameter=80;
+    balloon.collider="dynamic";
+    balloon.color="yellow";
+    balloon.bounciness=0.8;
+    balloon.mass=5;
+    balloon.drag=0;
+
+    // BALL ADDED
+    ball=new Sprite();
+    ball.x=width/2;
+    ball.y=height*0.3;
+    ball.diameter=40;
+    ball.collider="dynamic";
+    ball.color="red";
+    ball.bounciness=0.8;
+
+
+    leftWall=new Sprite();
+    leftWall.x=0;
+    leftWall.y=height/2;
+    leftWall.width=10;
+    leftWall.height=height;
+    leftWall.collider="static";
+
+    rightWall=new Sprite();
+    rightWall.x=width;
+    rightWall.y=height/2;
+    rightWall.width=10;
+    rightWall.height=height;
+    rightWall.collider="static";
+
+    topWall=new Sprite();
+    topWall.x=width/2;
+    topWall.y=0;
+    topWall.width=width;
+    topWall.height=10;
+    topWall.collider="static";
+
+    bottomWall=new Sprite();
+    bottomWall.x=width/2;
+    bottomWall.y=height;
+    bottomWall.width=width;
+    bottomWall.height=10;
+    bottomWall.collider="static";
 }
 
 
 function gotHands(results) {
     hands = results;
 }
+
 function draw() {
     image(video, 0, 0, videoW, videoH);
 
-    for(let i=0; i<hands.length; i++){
-        let hand = hands[i];
-        // loop through all the 21 keypoints
-        for (let j = 0; j < hand.keypoints.length; j++) {
-            let keypoint = hand.keypoints[8];
+    for(let i=0; i<hands.length; i++){ 
+        let hand = hands[i]; 
+        let keypoint = hand.keypoints[8]; 
+        fingerTip.x=keypoint.x; 
+        fingerTip.y=keypoint.y;
+    }
 
-            // for every keypoint, draw a circle.
-            circle(keypoint.x, keypoint.y, 10);
-        }
+    if (balloon.collides(fingerTip)) {
+        bounceSound.play();
     }
 }
-
-//=========================================
-// Function Created
-//=========================================
+```
