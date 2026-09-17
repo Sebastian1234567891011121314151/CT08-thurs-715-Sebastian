@@ -11,9 +11,6 @@ let balloon;
 let fingerTip;
 let bounceSound;
 
-// BALL ADDED
-let ball;
-
 //=========================================
 // Code
 //=========================================
