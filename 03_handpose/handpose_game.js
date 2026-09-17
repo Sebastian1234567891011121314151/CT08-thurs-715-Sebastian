@@ -109,5 +109,7 @@ function draw() {
         fingerTip.y=keypoint.y;
     }
 
-
+if (balloon.collides(fingerTip)) {
+    bounceSound.play();
+}
 }
