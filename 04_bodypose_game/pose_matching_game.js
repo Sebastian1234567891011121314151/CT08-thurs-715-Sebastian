@@ -107,5 +107,7 @@ function drawMiddleLine() {
 }
 
 function drawSkeleton(person, color) {
+    stroke(color);
+
     
 }
