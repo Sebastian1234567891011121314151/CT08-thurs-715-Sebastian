@@ -124,5 +124,7 @@ function drawSkeleton(person, color) {
     drawBodyLine(person.rightHip, person.leftHip);
 
     drawBodyPose(person.nose)
-    drawBodyPose(person.left)
+    drawBodyPose(person.left_shoulder)
+    drawBodyPose(person.right_shoulder)
+    draw
 }
