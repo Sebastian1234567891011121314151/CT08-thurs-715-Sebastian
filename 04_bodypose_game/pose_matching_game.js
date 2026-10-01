@@ -135,4 +135,6 @@ function drawSkeleton(person, color) {
 
 }
 
-function drawQllSkeletons(){}
+function drawAllSkeletons(){
+    for(let i=0;i<dectectedPeople.length;i++){
+}
