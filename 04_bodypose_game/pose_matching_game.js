@@ -127,4 +127,10 @@ function drawSkeleton(person, color) {
     drawBodyPose(person.left_shoulder)
     drawBodyPose(person.right_shoulder)
     drawBodyPose(person.left_elbow)
+    drawBodyPose(person.right_elbow)
+    drawBodyPose(person.left_wrist)
+    drawBodyPose(person.right_wrist)
+    drawBodyPose(person.left_hip)
+    drawBodyPose(person.right_hip)
+
 }
