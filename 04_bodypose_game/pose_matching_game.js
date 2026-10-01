@@ -135,4 +135,4 @@ function drawSkeleton(person, color) {
 
 }
 
-functiondraw
+function drawQllSkeletons(){}
