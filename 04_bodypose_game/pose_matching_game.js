@@ -134,3 +134,5 @@ function drawSkeleton(person, color) {
     drawBodyPose(person.right_hip)
 
 }
+
+functiondraw
