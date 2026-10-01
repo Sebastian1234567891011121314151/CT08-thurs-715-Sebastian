@@ -52,7 +52,7 @@ function setup() {
             height: cameraHeight,
             aspectRatio: cameraWidth / cameraHeight
         }
-    };
+    }
 
     // Set up text.
     textAlign(CENTER, CENTER);
