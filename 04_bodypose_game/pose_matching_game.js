@@ -136,5 +136,8 @@ function drawSkeleton(person, color) {
 }
 
 function drawAllSkeletons(){
-    for(let i=0;i<dectectedPeople.length;i++){
+    for(let i=0;i<detectedPeople.length;i++){
+        let person = detectedPeople[i];
+        drawSkeleton(person, color(255, 0, 0));
+    }
 }
