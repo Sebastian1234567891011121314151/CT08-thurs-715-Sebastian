@@ -111,5 +111,5 @@ function drawSkeleton(person, color) {
 
     strokeWeight(3);
 
-    drawBodyLine
+    drawBodyLine(person,leftShoulder, leftElbow);
 }
