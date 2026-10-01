@@ -23,12 +23,20 @@ let leftPanelX = 0;
 // x-position of the right panel.
 let rightPanelX = sidePanelWidth + cameraWidth;
 
+
+let bodyPose;
+let detectedPeople = [];
+let color;
+let player1position;
+let player2position;
+
+
 // ====================================================
 // Preload
 // ====================================================
 
 function preload(){
-    
+    bodyPose = ml5.bodyPose("Movenet", { flipped: true });
 }
 
 // ====================================================
@@ -37,6 +45,7 @@ function preload(){
 
 // setup() runs once at the start.
 function setup() {
+    new Canvas(totalCanvasWidth, cameraHeight);
 
     // Set up text.
     textAlign(CENTER, CENTER);
@@ -138,6 +147,6 @@ function drawSkeleton(person, color) {
 function drawAllSkeletons(){
     for(let i=0;i<detectedPeople.length;i++){
         let person = detectedPeople[i];
-        drawSkeleton(person, color(255, 0, 0));
+        drawSkeleton(person, color);
     }
 }
