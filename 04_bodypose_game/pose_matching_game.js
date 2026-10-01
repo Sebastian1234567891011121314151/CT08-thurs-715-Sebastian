@@ -118,4 +118,6 @@ function drawSkeleton(person, color) {
     drawBodyLine(person.left_Elbow, person.left_Wrist);
 
     drawBodyLine(person.rightShoulder, person.right_Elbow);
+
+    drawBodyLine(person.right_Elbow, person.right_Wrist);
 }
