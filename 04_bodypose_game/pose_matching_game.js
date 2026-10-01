@@ -46,6 +46,13 @@ function preload(){
 // setup() runs once at the start.
 function setup() {
     new Canvas(totalCanvasWidth, cameraHeight);
+    let constraints = {
+        video: {
+            width: cameraWidth,
+            height: cameraHeight,
+            aspectRatio: cameraWidth / cameraHeight
+        }
+    };
 
     // Set up text.
     textAlign(CENTER, CENTER);
