@@ -120,4 +120,6 @@ function drawSkeleton(person, color) {
     drawBodyLine(person.rightShoulder, person.right_Elbow);
 
     drawBodyLine(person.right_Elbow, person.right_Wrist);
+
+    drawBodyLine(person.rightHip, person.leftHip);
 }
