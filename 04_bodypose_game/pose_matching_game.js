@@ -369,6 +369,10 @@ function drawPlayerStatus() {
 
 function setupPoseArray() {
     posearray = [
-        name
-    ]
+        {
+            name: "Both Hands Up",
+            image: "",
+            id: ""
+        }
+    ];
 }
