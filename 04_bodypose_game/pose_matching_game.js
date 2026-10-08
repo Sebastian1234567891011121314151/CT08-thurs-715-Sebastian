@@ -45,7 +45,7 @@ let rightHandUpImage;
 let handsOnHeadImage;
 let tPoseImage;
 let posearray =[];
-let current
+let currentpose = null;
 // ====================================================
 // Preload
 // ====================================================
@@ -366,3 +366,4 @@ function drawPlayerStatus() {
         text("Detected", rightPanelCenterX, height / 2);
     }
 }
+
