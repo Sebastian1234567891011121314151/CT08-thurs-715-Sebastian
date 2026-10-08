@@ -368,5 +368,7 @@ function drawPlayerStatus() {
 }
 
 function setupPoseArray() {
-    posearray = []
+    posearray = [
+        lef
+    ]
 }
