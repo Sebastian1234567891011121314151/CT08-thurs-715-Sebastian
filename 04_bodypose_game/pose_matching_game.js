@@ -371,7 +371,7 @@ function setupPoseArray() {
     posearray = [
         {
             name: "Both Hands Up",
-            image: "",
+            image: "bothhandsupimage",
             id: ""
         }
     ];
