@@ -369,6 +369,8 @@ function drawPlayerStatus() {
         } else {
             text("NO MATCH!", leftPanelCenterX, height / 2 + 50);
         }
+    
+        text()
     }
 
     if (player2Person != null) {
