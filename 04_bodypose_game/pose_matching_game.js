@@ -360,6 +360,14 @@ function drawPlayerStatus() {
     if (player1Person != null) {
         fill(player1Colour); // Text colour
         text("Detected", leftPanelCenterX, height / 2);
+
+        if(currentpose(player1Person)==true){
+            text("MATCH!", leftPanelCenterX, height / 2 + 50);
+        } 
+        else {
+            text("NO MATCH!", leftPanelCenterX, height / 2 + 50);
+    }
+
     }
 
     // Check if player2 exists
