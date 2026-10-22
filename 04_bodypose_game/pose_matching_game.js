@@ -370,7 +370,7 @@ function drawPlayerStatus() {
             text("NO MATCH!", leftPanelCenterX, height / 2 + 50);
         }
     
-        text()
+        text("Score: " + player1Score, leftPanelCenterX, height / 2 + 100);
     }
 
     if (player2Person != null) {
@@ -382,6 +382,8 @@ function drawPlayerStatus() {
         } else {
             text("NO MATCH!", rightPanelCenterX, height / 2 + 50);
         }
+
+        text("Score: " + player2Score, rightPanelCenterX, height / 2 + 100);
     }
 }
 
