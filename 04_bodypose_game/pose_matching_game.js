@@ -366,8 +366,7 @@ function drawPlayerStatus() {
         } 
         else {
             text("NO MATCH!", leftPanelCenterX, height / 2 + 50);
-    }
-
+        }
     }
 
     // Check if player2 exists
@@ -376,12 +375,7 @@ function drawPlayerStatus() {
         text("Detected", rightPanelCenterX, height / 2);
     }
 
-    if(currentpose(player1Person)==true){
-        text("MATCH!", leftPanelCenterX, height / 2 + 50);
-    } 
-    else {
-        text("NO MATCH!", leftPanelCenterX, height / 2 + 50);
-    }
+
 
 }
 
