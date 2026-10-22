@@ -712,6 +712,6 @@ function checkHandsOnHead(person) {
 
 function checkPlayerScore(){
     if(player1Person !== null && player1Scored === false &&player2Scored === false){  
-
+        
     }
 }
