@@ -40,6 +40,8 @@ let player2Colour;
 let player1Score = 0;
 let player2Score = 0;
 let pointsgain=10;
+let player1Scored = false;
+let player2Scored = false;
 
 // Game assets
 let bothHandsUpImage;
@@ -709,5 +711,7 @@ function checkHandsOnHead(person) {
         
 
 function checkPlayerScore(){
-    
+    if(player1Person !== null && player1Scored === false &&player2Scored === false){  
+
+    }
 }
