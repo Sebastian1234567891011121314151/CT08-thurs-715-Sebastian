@@ -354,38 +354,30 @@ function drawPlayerSkeletons() {
 
 // Draw info for player1 and player2 in the side panels
 function drawPlayerStatus() {
-    noStroke(); // Remove text outline
+    noStroke();
     textSize(28);
-    
-    // Check if player1 exists
+
     if (player1Person != null) {
-        fill(player1Colour); // Text colour
+        fill(player1Colour);
         text("Detected", leftPanelCenterX, height / 2);
 
-        if(currentpose(player1Person)==true){
+        if (checkCurrentPose(player1Person) === true) {
             text("MATCH!", leftPanelCenterX, height / 2 + 50);
-        } 
-        else {
+        } else {
             text("NO MATCH!", leftPanelCenterX, height / 2 + 50);
         }
     }
 
-    // Check if player2 exists
     if (player2Person != null) {
-        fill(player2Colour); // Text colour
+        fill(player2Colour);
         text("Detected", rightPanelCenterX, height / 2);
 
-        if(currentpose(player2Person)==true){
+        if (checkCurrentPose(player2Person) === true) {
             text("MATCH!", rightPanelCenterX, height / 2 + 50);
-        } 
-        else {
+        } else {
             text("NO MATCH!", rightPanelCenterX, height / 2 + 50);
         }
-
     }
-
-
-
 }
 
 function setupPoseArray() {
