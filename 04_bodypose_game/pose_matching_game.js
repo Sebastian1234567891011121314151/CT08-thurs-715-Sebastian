@@ -37,7 +37,8 @@ let player1Person;
 let player2Person;
 let player1Colour;
 let player2Colour;
-let
+let player1Score = 0;
+let player2Score = 0;
 
 // Game assets
 let bothHandsUpImage;
