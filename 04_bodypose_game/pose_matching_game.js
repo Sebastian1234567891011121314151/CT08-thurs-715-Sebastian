@@ -714,5 +714,9 @@ function checkPlayerScore(){
     if(player1Person !== null && player1Scored === false &&player2Scored === false){  
         console.log("p1 ready");
         if (checkCurrentPose(player1Person) === true) {
+            player1Score += pointsgain;
+            player1Scored = true;
+            console.log("p1 scored");
+        }
     }
 }
