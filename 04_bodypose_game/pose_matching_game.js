@@ -37,6 +37,7 @@ let player1Person;
 let player2Person;
 let player1Colour;
 let player2Colour;
+let
 
 // Game assets
 let bothHandsUpImage;
