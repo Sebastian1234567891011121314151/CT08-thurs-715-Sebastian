@@ -706,4 +706,8 @@ function checkHandsOnHead(person) {
         return false;
     }
 }
-          
+        
+
+function checkPlayerScore(){
+    
+}
