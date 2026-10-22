@@ -91,12 +91,13 @@ function setup() {
     bodyPose.detectStart(video, gotPeople);
 
     // Set game variables
-    skeletonColour = color(255, 255, 0); // color(r, g, b)
+    skeletonColour = color(255, 255, 0);
     player1Colour = color(255, 0, 0);
     player2Colour = color(0, 0, 255);
+
+    setupPoseArray();
+
 }
-
-
 // ====================================================
 // Main draw loop
 // ====================================================
