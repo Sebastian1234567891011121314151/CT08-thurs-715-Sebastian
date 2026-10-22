@@ -133,6 +133,8 @@ function draw() {
     findPlayers();
     drawPlayerSkeletons();
     drawPlayerStatus();
+
+    drawGameUI();
 }
 
 // ====================================================
@@ -371,8 +373,66 @@ function setupPoseArray() {
     posearray = [
         {
             name: "Both Hands Up",
-            image: "bothhandsupimage",
-            id: ""
+            image: bothHandsUpImage,
+            id: "bothHandsUp"
+        }
+        {
+            name: "Left Hand Up",
+            image: leftHandUpImage,
+            id: "leftHandUp"
+        }
+        {
+            name: "Right Hand Up",
+            image: rightHandUpImage,
+            id: "rightHandUp"
+        }
+        {
+            name: "Hands On Head",
+            image: handsOnHeadImage,
+            id: "handsOnHead"
+        }
+        {
+            name: "t Pose",
+            image: tPoseImage,
+            id: "tPose"
         }
     ];
+}
+
+function drawTargetPose(){
+    imageMode(CENTER);
+
+    image(poseImage,x,y,size,size);
+
+    imageMode(CORNER);
+}
+
+function drawGameUI(){
+    if (currentpose === null|| currentpose === undefined) {
+        return;
+    }
+
+    fill(255,220,80)
+    textSize(28)
+    text(currentpose.name, width/2, height*0.1)
+
+    drawTargetPose(currentpose.image, width/2, height*0.9, 230)
+}
+
+function keyPressed() {
+    if (key === '1') {
+        currentpose = posearray[0];
+    }
+    if (key === '2') {
+        currentpose = posearray[1];
+    }
+    if (key === '3') {
+        currentpose = posearray[2];
+    }
+    if (key === '4') {
+        currentpose = posearray[3];
+    }
+    if (key === '5') {
+        currentpose = posearray[4];
+    }
 }

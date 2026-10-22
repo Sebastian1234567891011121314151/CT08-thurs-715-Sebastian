@@ -119,5 +119,7 @@ function draw() {
     if (balloon.collides(fingerTip)) {
         balloon.vel.y=-8;
     }
+
+    
 }
 
