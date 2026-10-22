@@ -375,22 +375,22 @@ function setupPoseArray() {
             name: "Both Hands Up",
             image: bothHandsUpImage,
             id: "bothHandsUp"
-        }
+        },
         {
             name: "Left Hand Up",
             image: leftHandUpImage,
             id: "leftHandUp"
-        }
+        },
         {
             name: "Right Hand Up",
             image: rightHandUpImage,
             id: "rightHandUp"
-        }
+        },
         {
             name: "Hands On Head",
             image: handsOnHeadImage,
             id: "handsOnHead"
-        }
+        },
         {
             name: "t Pose",
             image: tPoseImage,
