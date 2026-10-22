@@ -39,7 +39,7 @@ let player1Colour;
 let player2Colour;
 let player1Score = 0;
 let player2Score = 0;
-let 
+let pointsgain=10;
 
 // Game assets
 let bothHandsUpImage;
