@@ -370,7 +370,8 @@ function drawPlayerStatus() {
 
     if(currentpose(player1Person)==true){
         text("MATCH!", leftPanelCenterX, height / 2 + 50);
-    } else {
+    } 
+    else {
         text("NO MATCH!", leftPanelCenterX, height / 2 + 50);
     }
 
