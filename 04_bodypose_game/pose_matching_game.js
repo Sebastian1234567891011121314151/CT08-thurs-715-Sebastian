@@ -410,11 +410,9 @@ function setupPoseArray() {
     ];
 }
 
-function drawTargetPose(){
+function drawTargetPose(poseImage, x, y, size) {
     imageMode(CENTER);
-
-    image(poseImage,x,y,size,size);
-
+    image(poseImage, x, y, size, size);
     imageMode(CORNER);
 }
 
